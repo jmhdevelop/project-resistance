@@ -54,7 +54,10 @@
 		BC26B7952529E942002EDBF5 /* ResistanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResistanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC26B7992529E942002EDBF5 /* ResistanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistanceUITests.swift; sourceTree = "<group>"; };
 		BC26B79B2529E942002EDBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC65594E2529F8A000413943 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		BC5A6140252A055C006415A4 /* Lato-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-RegularItalic.ttf"; sourceTree = "<group>"; };
+		BC5A6141252A055D006415A4 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		BC5A6143252A055D006415A4 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		BC5A6145252A055D006415A4 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		BC65595B2529F8CC00413943 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BC6559602529F8D000413943 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BC6559642529FA8500413943 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -143,6 +146,17 @@
 			path = ResistanceUITests;
 			sourceTree = "<group>";
 		};
+		BC5A613F252A054A006415A4 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BC5A6145252A055D006415A4 /* Lato-Light.ttf */,
+				BC5A6143252A055D006415A4 /* Lato-LightItalic.ttf */,
+				BC5A6141252A055D006415A4 /* Lato-Regular.ttf */,
+				BC5A6140252A055C006415A4 /* Lato-RegularItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		BC65593B2529F6A000413943 /* Suporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +177,7 @@
 		BC65593D2529F6DC00413943 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BC5A613F252A054A006415A4 /* Font */,
 				BC26B7802529E942002EDBF5 /* Assets.xcassets */,
 				BC65595C2529F8CC00413943 /* Localizable.strings */,
 			);
@@ -430,7 +445,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				BC26B7832529E942002EDBF5 /* Base */,
-				BC65594E2529F8A000413943 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
